@@ -1,3 +1,4 @@
+
 const http = require("node:http");
 const calculateTotal = require("./app");
 
@@ -39,7 +40,8 @@ const server = http.createServer((req, res) => {
   res.writeHead(200);
   res.end(JSON.stringify({
     application: "ShopEasy Lite",
-    message: "Welcome to ShopEasy Lite!"
+    version: "1.0.1",
+    message: "Welcome to ShopEasy Lite - Version 1.0.1!"
   }));
 });
 
