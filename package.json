@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
-    "build": "mkdir -p dist && cp src/app.js dist/"
+    "build": "mkdir -p dist && cp src/app.js dist/",
+    "start": "node src/server.js"
   },
   "keywords": [],
   "author": "",
